@@ -2,7 +2,7 @@
 
 ## buffer-simulation
 
-This simulation has the objective of analyzing how the buffer size affects data flow. Metrics such as throughput, latency, and packet loss are collected to understand the impact of different buffer sizes on network performance. See results and line charts in https://docs.google.com/spreadsheets/d/e/2PACX-1vT0bVNkllmD_IhFfsIunuudCD6aoQU-WdAWtDOV2CYuQgbxYoIm0zfzc7FAntmd4YDP94ovQChUXKoh/pubhtml.
+This simulation has the objective of analyzing how the buffer size affects data flow. Metrics such as throughput, latency, and packet loss are collected to understand the impact of different buffer sizes on network performance. See [buffer simulation results](https://docs.google.com/spreadsheets/d/e/2PACX-1vTvj0pmk0UC8NfCLPN1G4_8xvXFZ1tPGEDKF7tSFZzxs-4YGqzKvw9GKI01WYsaig/pubhtml).
 
 The primary parameter of this simulation is the router buffer size, which is set to 2, 10, 50 (baseline), 100, and 500.
 
@@ -32,7 +32,7 @@ In the following topology, blue nodes represent TCP sources and destinations, re
 
 ## class-imbalance-simulation
 
-This simulation demonstrates protocol fairness in a dumbbell topology. The objective is to analyze how TCP and UDP flows compete for bandwidth. Metrics such as throughput, latency, and packet loss are collected to understand the impact of protocol distribution on network performance. See results and line charts in https://docs.google.com/spreadsheets/d/e/2PACX-1vQCXbfnjDvc32tZkmyNE39POfm0AMOsht9wSjESLmo_ZB2PHFEl9ZhRm6wgNQlUNGGVY5VvGFRB_JVK/pubhtml.
+This simulation demonstrates protocol fairness in a dumbbell topology. The objective is to analyze how TCP and UDP flows compete for bandwidth. Metrics such as throughput, latency, and packet loss are collected to understand the impact of protocol distribution on network performance. See [class imbalance results](https://docs.google.com/spreadsheets/d/e/2PACX-1vSpd5HUor3AxL1QV6f1VJh5VX999oiul3m4Htxf5NCq3TO0Y84FqA5564AMsssv9w/pubhtml).
 
 The primary parameter of this simulation is the TCP to UDP flow ratio, tested at five specific points: 9:1, 7:3, 5:5 (baseline), 3:7, and 1:9.
 
@@ -48,7 +48,7 @@ In the following topology, blue nodes represent TCP sources and destinations, re
 
 ## latency-simulation
 
-This simulation analyzes how latency affects data flow. Metrics such as throughput, latency, and packet loss are collected to understand the impact of different latency values on network performance. See results and line charts in https://docs.google.com/spreadsheets/d/e/2PACX-1vRQPACQlu8_Yyi_I3OMC3gGMgHyzqB2zsj7p6WtYdticXVQkc640Z3VUsVa4CWgx-sJjfK4c6dpfiJK/pubhtml.
+This simulation analyzes how latency affects data flow. Metrics such as throughput, latency, and packet loss are collected to understand the impact of different latency values on network performance. See [latency simulation results](https://docs.google.com/spreadsheets/d/e/2PACX-1vTRT87tn4bDix3XXfmXooBSxGhI7NKlrqy4nBVjjsmjMuCx-FRx7IbJf7t1TpJcUw/pubhtml).
 
 The primary parameter of this simulation is the latency of the link between the two routers, which is set to 10ms (baseline), 50ms, 100ms, 200ms, and 400ms.
 
