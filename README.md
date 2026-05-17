@@ -4,6 +4,8 @@ Computer Network Design Project to analyze the performance of TCP and UDP traffi
 
 See [simulations.md](./simulations.md) for descriptions of the simulations and results.
 
+See [TCP vs UDP Performance Comparison paper](./2026-05-10-final-report.pdf).
+
 ## Owners
 - [Bhimsen Thapa Chhetri](https://github.com/bhimsenthapa1)
 - [John Ian Buñag](https://github.com/ianbunag)
