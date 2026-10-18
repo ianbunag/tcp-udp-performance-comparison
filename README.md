@@ -1,14 +1,13 @@
-# CMPE-206 Computer Network Design Project
+# TCP vs. UDP Performance Comparison
 
-Computer Network Design Project to analyze the performance of TCP and UDP traffic under different conditions using the ns-3 network simulator.
+A discrete-event network simulation suite built with the **ns-3** simulator to evaluate and compare TCP and UDP transport-layer performance under varying network stress conditions.
 
-See [simulations.md](./simulations.md) for descriptions of the simulations and results.
+> **Context:** Graduate Research Project — **CMPE-206: Computer Network Design** (May 2026)  
+> **Researchers:** [Bhimsen Thapa Chhetri](https://github.com/bhimsenthapa1) & [John Ian Buñag](https://github.com/ianbunag)  
+> **Technical Paper:** [TCP vs. UDP Performance Comparison (PDF)](./2026-05-10-final-report.pdf)  
+> **Simulation Specifications & Data:** [simulations.md](./simulations.md)
 
-See [TCP vs UDP Performance Comparison paper](./2026-05-10-final-report.pdf).
-
-## Owners
-- [Bhimsen Thapa Chhetri](https://github.com/bhimsenthapa1)
-- [John Ian Buñag](https://github.com/ianbunag)
+Three empirical experiments were conducted across bottleneck dumbbell topologies—varying router buffer size, link latency (with a 0.0001% bit error rate), and TCP/UDP flow ratios—measuring throughput, mean delay, packet loss, retransmissions, duplicate ACKs, and Jain's Fairness Index.
 
 ## Install ns-3
 
@@ -65,11 +64,11 @@ All commands below are run in the simulations' directory. ns-3 and netanim binar
 - simulations - contains the C++ source code for the simulations
 - project.cc - contains the main function that runs the simulations based on command line arguments
 
-### Clone cmpe-206-computer-network-design-project into scratch directory with git
+### Clone into ns-3 scratch directory with git
 ```bash
 cd ns-3-dev/scratch
-git clone git@github.com:ianbunag/cmpe-206-computer-network-design-project.git
-cd cmpe-206-computer-network-design-project
+git clone git@github.com:ianbunag/tcp-udp-performance-comparison.git
+cd tcp-udp-performance-comparison
 ```
 
 ### Run a simulation
