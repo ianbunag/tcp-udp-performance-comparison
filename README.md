@@ -2,7 +2,7 @@
 
 A discrete-event network simulation suite built with the **ns-3** simulator to evaluate and compare TCP and UDP transport-layer performance under varying network stress conditions.
 
-> **Context:** Graduate Research Project — **CMPE-206: Computer Network Design** (May 2026)  
+> **Context:** Graduate Research Project — **CMPE-206: Computer Network Design** (Spring 2026)  
 > **Researchers:** [Bhimsen Thapa Chhetri](https://github.com/bhimsenthapa1) & [John Ian Buñag](https://github.com/ianbunag)  
 > **Technical Paper:** [TCP vs. UDP Performance Comparison (PDF)](./2026-05-10-final-report.pdf)  
 > **Simulation Specifications & Data:** [simulations.md](./simulations.md)
